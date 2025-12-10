@@ -38,7 +38,7 @@ export const About: React.FC = () => {
           <div className="lg:w-1/2 order-1 lg:order-2" data-aos="fade-left">
             <div className="relative rounded-3xl overflow-hidden shadow-2xl">
               <img 
-                src="/images/about_team.png" 
+                src="/lp-veterinaria/images/about_team.png" 
                 alt={content.about.imageAlt}
                 className="w-full h-auto object-cover hover:scale-105 transition-transform duration-700"
               />

@@ -62,25 +62,25 @@ export const content = {
         name: "Dr. André Silva",
         specialty: "Clínica Geral e Cirurgia",
         crmv: "CRMV-SP 00000",
-        image: "/images/doctors/doctor_andre_silva.png"
+        image: "/lp-veterinaria/images/doctors/doctor_andre_silva.png"
       },
       {
         name: "Dra. Mariana Costa",
         specialty: "Dermatologia e Felinos",
         crmv: "CRMV-SP 00000",
-        image: "/images/doctors/doctor_mariana_costa.png"
+        image: "/lp-veterinaria/images/doctors/doctor_mariana_costa.png"
       },
       {
         name: "Dr. Carlos Santos",
         specialty: "Ortopedia e Diagnóstico",
         crmv: "CRMV-SP 00000",
-        image: "/images/doctors/doctor_carlos_santos.png"
+        image: "/lp-veterinaria/images/doctors/doctor_carlos_santos.png"
       },
        {
         name: "Dra. Beatriz Lima",
         specialty: "Anestesiologia",
         crmv: "CRMV-SP 00000",
-        image: "/images/doctors/doctor_beatriz_lima.png"
+        image: "/lp-veterinaria/images/doctors/doctor_beatriz_lima.png"
       },
     ]
   },
@@ -105,7 +105,7 @@ export const content = {
     cta: "Chamar no WhatsApp Agora",
   },
   footer: {
-    copyright: "© 2024 Veterinária Santa Luzia. Todos os direitos reservados.",
+    copyright: "© 2025 Veterinária Santa Luzia. Todos os direitos reservados.",
     tech: "Responsável Técnico: Dr. Nome Sobrenome - CRMV-UF 00000",
     links: [
         { label: "Início", href: "#hero" },
