@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Roboto:wght@300;400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Nunito", sans-serif;
+  --font-body: "Roboto", sans-serif;
+
+  --color-primary: #005B96;
+  --color-primary-light: #337BAA;
+  --color-primary-dark: #004069;
+
+  --color-secondary: #88B04B;
+  --color-secondary-light: #A0C06F;
+  --color-secondary-dark: #70913D;
+
+  --color-accent: #FF6F61;
+  --color-accent-hover: #E85A4F;
+
+  --color-surface-light: #F4F7F6;
+  --color-surface-white: #FFFFFF;
+  
+  --breakpoint-2xl: 1400px;
+}
+
+@layer utilities {
+  .container {
+    @apply mx-auto px-4;
+  }
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply font-body text-gray-800 bg-surface-white antialiased;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-sans font-bold text-primary-dark;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply px-6 py-3 bg-accent text-white font-bold rounded-full transition-all duration-300 hover:bg-accent-hover hover:shadow-lg active:scale-95;
+  }
+  
+  .btn-secondary {
+    @apply px-6 py-3 bg-primary text-white font-bold rounded-full transition-all duration-300 hover:bg-primary-light hover:shadow-lg active:scale-95;
+  }
+}

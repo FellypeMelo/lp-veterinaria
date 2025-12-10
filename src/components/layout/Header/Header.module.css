@@ -1,0 +1,29 @@
+@reference "../../../index.css";
+.header {
+  @apply fixed top-0 left-0 w-full z-50 transition-all duration-300;
+}
+
+.headerScrolled {
+  @apply bg-white/90 backdrop-blur-md shadow-md py-2;
+}
+
+.headerTransparent {
+  @apply bg-transparent py-4 md:py-6;
+}
+
+.navLink {
+  @apply relative text-primary-dark font-semibold text-lg hover:text-accent transition-colors duration-300;
+}
+
+.navLink::after {
+  content: '';
+  @apply absolute left-0 -bottom-1 w-0 h-0.5 bg-accent transition-all duration-300;
+}
+
+.navLink:hover::after {
+  @apply w-full;
+}
+
+.mobileMenu {
+  @apply fixed inset-0 bg-white z-40 flex flex-col items-center justify-center gap-8;
+}
