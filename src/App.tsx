@@ -8,6 +8,7 @@ import { Services } from './components/sections/Services';
 import { About } from './components/sections/About';
 import { Location } from './components/sections/Location';
 import { Footer } from './components/layout/Footer/Footer';
+import { FloatingWhatsApp } from './components/layout/FloatingWhatsApp';
 
 import { Doctors } from './components/sections/Doctors';
 
@@ -31,6 +32,7 @@ function App() {
         <Doctors />
         <Location />
       </main>
+      <FloatingWhatsApp />
       <Footer />
     </div>
   );
